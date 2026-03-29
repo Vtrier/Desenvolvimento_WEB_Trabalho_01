@@ -1,0 +1,52 @@
+.listar-container {
+    padding: 20px;
+}
+
+.tabela-livros {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.tabela-livros th,
+.tabela-livros td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.btn-acao {
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 8px;
+    display: inline-block;
+    transition: background 0.3s, transform 0.1s;
+}
+
+.btn-editar {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #0069d9;
+}
+
+.btn-editar:hover {
+    background-color: #0069d9;
+    transform: scale(1.05);
+}
+
+.btn-excluir {
+    background-color: #dc3545;
+    color: white;
+    border: 1px solid #c82333;
+}
+
+.btn-excluir:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}
+
+.btn-acao:active {
+    transform: scale(0.95);
+}
