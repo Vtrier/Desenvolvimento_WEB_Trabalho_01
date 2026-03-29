@@ -1,0 +1,12 @@
+.home-container {
+    padding: 20px;
+}
+
+.moedas-card {
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 300px;
+    margin-top: 20px;
+}

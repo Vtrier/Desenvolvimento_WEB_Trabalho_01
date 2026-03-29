@@ -1,0 +1,47 @@
+.delete-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.delete-card {
+    background: #fff;
+    border: 2px solid #ff4d4d;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.livro-info {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    color: #d93025;
+}
+
+.actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn-confirm {
+    background-color: #d93025;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-confirm:hover { background-color: #a5170e; }
+
+.btn-cancel {
+    text-decoration: none;
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
